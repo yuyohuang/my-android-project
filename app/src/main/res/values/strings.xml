@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">My Application 1210</string>
+    //芝芝系列
+    <string-array name="menu1">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu2">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu3">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu4">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu5">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu6">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+    //鮮果茶飲
+    <string-array name="menu7">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu8">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu9">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu10">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu11">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu12">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu13">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu14">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+    <string-array name="menu15">
+        <item>0份</item>
+        <item>1份</item>
+        <item>2份</item>
+        <item>3份</item>
+        <item>4份</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 整個畫面可捲動的 ScrollView -->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 垂直 LinearLayout，依序放所有 UI -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 主標題 -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="麻古茶坊 MENU"
+            android:textSize="32sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <!-- ========== 芝芝系列 ========== -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="芝芝系列"
+            android:textSize="26sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 1. 芝芝金萱三Q -->
+        <LinearLayout
+            android:id="@+id/linearLayout_item1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芝芝金萱三Q     $65"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu1" />
+        </LinearLayout>
+
+        <!-- 2. 芝芝翡翠綠茶 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芝芝翡翠綠茶   $50"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu2" />
+        </LinearLayout>
+
+        <!-- 3. 芝芝蜜桃紅茶 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芝芝蜜桃紅茶   $60"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu3" />
+        </LinearLayout>
+
+        <!-- 4. 芝芝錫蘭奶茶 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芝芝錫蘭奶茶   $65"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu4" />
+        </LinearLayout>
+
+        <!-- 5. 芝芝阿華田 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芝芝阿華田     $80"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu5" />
+        </LinearLayout>
+
+        <!-- 6. 芝芝金萱雙Q -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="芝芝金萱雙Q   $60"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu6" />
+        </LinearLayout>
+
+        <!-- ========== 鮮果茶飲 ========== -->
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="鮮果茶飲"
+            android:textSize="26sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- 7. 百香雙Q果 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="百香雙Q果     $55"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu7" />
+        </LinearLayout>
+
+        <!-- 8. 百香綠茶 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="百香綠茶     $55"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu8" />
+        </LinearLayout>
+
+        <!-- 9. 百香多多 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="百香多多     $60"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu9" />
+        </LinearLayout>
+
+        <!-- 10. 翡翠柳橙 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="翡翠柳橙     $60"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu10" />
+        </LinearLayout>
+
+        <!-- 11. 金桔檸檬 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="金桔檸檬     $45"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu11" />
+        </LinearLayout>
+
+        <!-- 12. 檸檬綠茶 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="檸檬綠茶     $45"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu12" />
+        </LinearLayout>
+
+        <!-- 13. 檸檬紅茶 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="檸檬紅茶     $45"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu13" />
+        </LinearLayout>
+
+        <!-- 14. 蜂蜜檸檬 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="4dp">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="蜂蜜檸檬     $55"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu14" />
+        </LinearLayout>
+
+        <!-- 15. 檸檬多多 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="檸檬多多     $60"
+                android:textSize="20sp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/spinner17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/menu15" />
+        </LinearLayout>
+
+        <!-- ====================== 功能按鈕區 (新增/刪除/顯示/查當日) ====================== -->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新增"
+                android:textSize="18sp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="刪除"
+                android:textSize="18sp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonShow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="顯示"
+                android:textSize="18sp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonQuery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查詢當日"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 三日、七日 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="三日"
+                android:textSize="18sp"
+                android:layout_marginEnd="16dp" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="七日"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 若要顯示查詢結果，可放在這個 TextView -->
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="結果："
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 自訂區間 (開始 / 結束 / 查區間) -->
+        <LinearLayout
+            android:id="@+id/linearLayout_custom_range"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editTextStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:hint="開始 (yyyy-MM-dd)"
+                android:inputType="date"
+                android:layout_marginEnd="8dp" />
+
+            <EditText
+                android:id="@+id/editTextEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:hint="結束 (yyyy-MM-dd)"
+                android:inputType="date"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonCustomRange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查區間"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <!-- 多區間統計 (一次顯示 當日/三日/七日) -->
+        <Button
+            android:id="@+id/buttonMultiStats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多區間統計"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
+
+        <!-- ===================== 新增: 自訂資料庫輸入日期 ===================== -->
+        <LinearLayout
+            android:id="@+id/linearLayout_custom_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <EditText
+                android:id="@+id/editTextCustomDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="輸入日期 (yyyy-MM-dd)"
+                android:inputType="date"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonCustomDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="手動日期"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
