@@ -29,7 +29,7 @@ import java.util.Locale;
  *     與原本程式相同。
  */
 public class MainActivity extends AppCompatActivity {
-
+    int v;
     // ======= 15個 Spinner (飲品) =======
     private Spinner spinner1, spinner2, spinner3, spinner4, spinner5,
             spinner6, spinner7, spinner8, spinner9, spinner10,
